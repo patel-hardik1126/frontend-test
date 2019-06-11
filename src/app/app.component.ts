@@ -100,7 +100,6 @@ export class AppComponent implements OnInit {
         },
         err => {
           console.log(err);
-          this.loadingFollowers = false;
         }
       );
     }
