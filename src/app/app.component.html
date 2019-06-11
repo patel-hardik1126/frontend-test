@@ -41,7 +41,7 @@
 <div class="container">
   <ng-template [ngIf]="selectedRestaurant.id">
     <ol class="breadcrumb">
-      <li><a (click)="go('home')">Home</a></li>
+      <li><a (click)="go('home')" alt="Home">Home</a></li>
       <li class="active">{{ selectedRestaurant.name }}</li>
     </ol>
 
@@ -53,6 +53,7 @@
             height="100"
             class="media-object"
             [src]="selectedRestaurant.image_url"
+            alt="{{ selectedRestaurant.name }}"
           />
         </div>
         <div class="media-body">
@@ -80,7 +81,11 @@
     <ng-template [ngIf]="!selectedRestaurant.id">
       <div *ngFor="let restaurant of restaurants" class="col-xs-6 col-md-2">
         <div class="thumbnail">
-          <img [src]="restaurant.image_url" class="img-responsive" />
+          <img
+            [src]="restaurant.image_url"
+            class="img-responsive"
+            alt="{{ restaurant.name }}"
+          />
           <div class="caption">
             <h4>{{ restaurant.name }}</h4>
             <p>
