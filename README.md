@@ -1,27 +1,38 @@
-# FrontendTest
+# Github
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.20-4.
+
+## Demo:
+
+https://github.com/patel-hardik1126/frontend-test
 
 ## Development server
 
+Run `npm install` to install all modules in package. then
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
+   Comment:- Spent nearly 2 hours. I wanted to implemented pagination as well.
 
-## Running unit tests
+2. What was the most useful feature that was added to the latest version of your chosen language? Please include a
+   snippet of code that shows how you've used it.
+   Comment:- I used Angular 6. So I used the features which were already exsisting.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. How would you track down a performance issue in production? Have you ever had to do this?
+   Comment:- Intial step would be verify the network log on the browser; which will help me identify if there is any javascript, css, ajax request which is causing the performance issue. There is a plugin available called Yslow which can help identify the issue.
 
-## Running end-to-end tests
+4. How would you improve the API that you just used?
+   Comment:-
+   i. Use caching
+   ii. Use JSON serializer
+   iii. Implement asynchronous methods to make concurrent requests.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+5. Please describe yourself using JSON.
+   Comment:-
+   I have beeen using JSON from almost start of my professional career. So to use JSON was a regular task for me.
