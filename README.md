@@ -30,5 +30,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
    iii. Implement asynchronous methods to make concurrent requests.
 
 5. Please describe yourself using JSON.
-   <br/>omment:-
+   <br/>Comment:-
    I have beeen using JSON from almost start of my professional career. So to use JSON was a regular task for me.
