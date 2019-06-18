@@ -66,7 +66,7 @@ export class AppComponent implements OnInit {
       this.search.next(q);
     } else {
       //if empty search box we restore first restaurants
-      this.restaurants = this.cache.restaurants;
+      //this.restaurants = this.cache.restaurants;
     }
   }
 
