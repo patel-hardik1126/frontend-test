@@ -6,11 +6,10 @@ import { HttpModule } from "@angular/http";
 import { AppComponent } from "./app.component";
 import { ApiService } from "./services/api.service";
 import { RestaurantService } from "./services/restaurant.service";
-import { NgxPaginateModule } from "ngx-paginate";
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, FormsModule, HttpModule, NgxPaginateModule],
+  imports: [BrowserModule, FormsModule, HttpModule],
   providers: [ApiService, RestaurantService],
   bootstrap: [AppComponent]
 })
