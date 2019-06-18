@@ -6,7 +6,7 @@ import { Observable } from "rxjs";
 export class ApiService {
   private headers: Headers = new Headers();
   private requestOptions: RequestOptionsArgs = {};
-  private apiServer: string = "http://opentable.herokuapp.com/api";
+  private apiServer: string = "https://opentable.herokuapp.com/api";
 
   constructor(private http: Http) {
     this.headers.set("Content-Type", "application/json");
